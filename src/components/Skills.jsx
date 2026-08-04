@@ -5,23 +5,27 @@ const Skills = () => {
             <div className="skills-grid">
                 <div className="skill-card glass-card">
                     <h3>Programming</h3>
-                    <p>C++, Java, Script, Python, C</p>
+                    <p>C++, JavaScript, Python, C, Java</p>
                 </div>
                 <div className="skill-card glass-card">
-                    <h3>Web Development</h3>
-                    <p>Node.js, React.js, Express.js, HTML, CSS</p>
+                    <h3>Frontend</h3>
+                    <p>React.js, HTML, CSS</p>
                 </div>
                 <div className="skill-card glass-card">
-                    <h3>Databases</h3>
-                    <p>PostgreSQL, MySQL, MongoDB</p>
+                    <h3>Backend</h3>
+                    <p>Node.js, Express.js, JWT Authentication, REST APIs, Socket.io</p>
+                </div>
+                <div className="skill-card glass-card">
+                    <h3>Databases & Tools</h3>
+                    <p>PostgreSQL, MySQL, MongoDB, pgvector, Git, GitHub</p>
                 </div>
                 <div className="skill-card glass-card">
                     <h3>AI & ML</h3>
-                    <p>XGBoost, Vector Search (pgvector), RAG, Feature Engineering</p>
+                    <p>XGBoost, Vector Search (pgvector), RAG, Feature Engineering, Machine Learning Fundamentals</p>
                 </div>
                 <div className="skill-card glass-card">
-                    <h3>Tools & Core CS</h3>
-                    <p>Git, GitHub, DSA, DBMS, OOP, CN, OS, System Design</p>
+                    <h3>Core CS</h3>
+                    <p>DSA, DBMS, OOP, Computer Networks, Operating Systems</p>
                 </div>
             </div>
         </section>

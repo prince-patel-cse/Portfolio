@@ -7,13 +7,13 @@ const Projects = () => {
             
             <div className="project-card glass-card">
                 <div className="project-header">
-                    <h3>Cortex - Distributed Observability and RCA Platform</h3>
-                    <span className="project-date">July - August 2026</span>
+                    <h3>Cortex - Distributed Observability and Root Cause Analysis Platform</h3>
+                    <span className="project-date">Jul 2026 - Present</span>
                 </div>
                 <ul className="project-details">
-                    <li>Built a real-time observability platform using React, Node.js, PostgreSQL, and Socket.io for 10 microservices and 11 failure scenarios, streaming telemetry every 3s.</li>
-                    <li>Implemented a deterministic RCA engine using request correlation, span reconstruction, and evidence scoring to generate a ranked root-cause diagnosis.</li>
-                    <li>Developed an ML + RAG remediation pipeline training 3 XGBoost models on 200K+ records and integrating 3,072-dimensional pgvector embeddings.</li>
+                    <li>Built a real-time observability platform using React, Node.js, PostgreSQL, and Socket.io to monitor latency and failures across 10 microservices, streaming telemetry at 3-second intervals.</li>
+                    <li>Implemented request correlation, tracing, and dependency analysis to identify root causes across 11 simulated failure scenarios.</li>
+                    <li>Developed an ML + RAG remediation pipeline by training 3 XGBoost models on 200K+ simulated telemetry records and integrating pgvector-based retrieval to generate context-aware recovery guidance.</li>
                 </ul>
                 <div className="project-links mt-4">
                     <a href="https://github.com/VrajPrajapati6/Cortex-AI" target="_blank" rel="noopener noreferrer" className="btn btn-primary" style={{ padding: '0.6rem 1.2rem', fontSize: '0.95rem', borderRadius: '20px' }}>
@@ -24,13 +24,13 @@ const Projects = () => {
 
             <div className="project-card glass-card">
                 <div className="project-header">
-                    <h3>MiniDB - Lightweight SQL Engine</h3>
-                    <span className="project-date">June 2026</span>
+                    <h3>MiniDB - Lightweight SQL Engine with Time-Travel Queries</h3>
+                    <span className="project-date">Jun 2026</span>
                 </div>
                 <ul className="project-details">
-                    <li>Built a lightweight SQL engine from scratch supporting 10 SQL-like commands (CRUD, WHERE filtering, indexing, pagination, HISTORY, ROLLBACK).</li>
+                    <li>Built a lightweight SQL engine from scratch supporting 10 SQL-like commands, including CRUD operations, WHERE filtering, indexing, pagination, HISTORY, and ROLLBACK.</li>
                     <li>Designed an incremental versioning mechanism enabling efficient retrieval and restoration of previous database states.</li>
-                    <li>Tech Stack: C++, STL, File I/O</li>
+                    <li>Implemented query parsing and execution using custom data structures and file-based storage.</li>
                 </ul>
                 <div className="project-links mt-4">
                     <a href="https://github.com/prince-patel-cse/MiniDB" target="_blank" rel="noopener noreferrer" className="btn btn-primary" style={{ padding: '0.6rem 1.2rem', fontSize: '0.95rem', borderRadius: '20px' }}>
