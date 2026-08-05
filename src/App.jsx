@@ -2,7 +2,9 @@ import { useFadeIn } from './hooks/useFadeIn';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Skills from './components/Skills';
+import ProblemSolving from './components/ProblemSolving';
 import Projects from './components/Projects';
+import Certifications from './components/Certifications';
 import Education from './components/Education';
 import Achievements from './components/Achievements';
 import Contact from './components/Contact';
@@ -21,7 +23,9 @@ function App() {
       <main>
         <Hero />
         <Skills />
+        <ProblemSolving />
         <Projects />
+        <Certifications />
         <Education />
         <Achievements />
         <Contact />
