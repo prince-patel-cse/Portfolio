@@ -19,9 +19,6 @@ const Projects = () => {
                     <a href="https://github.com/VrajPrajapati6/Cortex-AI" target="_blank" rel="noopener noreferrer" className="btn btn-primary" style={{ padding: '0.6rem 1.2rem', fontSize: '0.95rem', borderRadius: '20px' }}>
                         <Code2 size={18} /> GitHub
                     </a>
-                    <a href="#" target="_blank" rel="noopener noreferrer" className="btn btn-secondary" style={{ padding: '0.6rem 1.2rem', fontSize: '0.95rem', borderRadius: '20px' }}>
-                        <ExternalLink size={18} /> Live Demo
-                    </a>
                 </div>
             </div>
 
