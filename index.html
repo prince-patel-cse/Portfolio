@@ -1,0 +1,1289 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Meta -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="Prince Patel - Full-Stack Developer, Systems Programmer, and B.Tech CSE student at Nirma University (CGPA 8.96). Building scalable distributed systems, database engines (MiniDB), AI observability platforms (Cortex), and solving 340+ LeetCode problems."
+    />
+    <meta
+      name="keywords"
+      content="Prince Patel, Software Engineer, Full-Stack Developer, Nirma University, Cortex, MiniDB, LeetCode, Portfolio"
+    />
+    <meta name="author" content="Prince Patel" />
+
+    <!-- Title -->
+    <title>Prince Patel | Full-Stack Developer & Software Engineer</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpeg" href="assets/img/Profile_Photo.jpeg" />
+
+    <!-- CSS Plugins -->
+    <link rel="stylesheet" href="assets/css/all.css" />
+    <link rel="stylesheet" href="assets/css/elegant-font-icons.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/jquery.animatedheadline.css" />
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+    <link rel="stylesheet" href="assets/css/owl.carousel.css" />
+
+    <!-- Font Google -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800,900&amp;display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+
+    <!-- Instant Theme Initializer (Prevents Flash) -->
+    <script>
+      (function () {
+        var theme = localStorage.getItem("portfolio_theme");
+        if (theme === "light") {
+          document.documentElement.classList.remove("dark");
+          document.documentElement.setAttribute("data-theme", "light");
+        } else {
+          document.documentElement.classList.add("dark");
+          document.documentElement.setAttribute("data-theme", "dark");
+        }
+      })();
+    </script>
+  </head>
+
+  <body data-spy="scroll" data-target="#scrollspy" data-offset="1">
+    <script>
+      (function () {
+        var theme = localStorage.getItem("portfolio_theme");
+        if (theme === "light") {
+          document.body.classList.remove("dark");
+        } else {
+          document.body.classList.add("dark");
+        }
+      })();
+    </script>
+
+    <!-- Preloader -->
+    <div class="loading">
+      <div class="circle"></div>
+    </div>
+
+    <!-- Menu Toggle (Mobile) -->
+    <div class="menu-toggle" id="menuToggle">
+      <span></span>
+    </div>
+
+    <!-- Header Left (Sidebar) -->
+    <div class="header-left" id="scrollspy">
+      <!-- Logo -->
+      <div class="logo bg-base-color">
+        <a href="#home" class="mb-0 text-white font-w-700">P</a>
+      </div>
+
+      <!-- Live Theme Toggle Button -->
+      <button
+        class="theme-btn-sidebar"
+        id="themeToggleBtn"
+        title="Toggle Theme (Dark / Light)"
+        aria-label="Toggle Theme"
+      >
+        <i class="fas fa-sun" id="themeIcon"></i>
+      </button>
+
+      <!-- Menu Navigation -->
+      <div class="main-menu" id="js-menu">
+        <div class="cross bg-base-color">
+          <span><i class="fas fa-times text-white"></i></span>
+        </div>
+        <nav class="menu">
+          <ul class="menu-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#hackathons">Hackathons</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#problem-solving">DSA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#works">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#certifications">Certs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- Social Share Toggle Button -->
+      <div class="btn-share">
+        <span class="social_share"></span>
+      </div>
+    </div>
+
+    <!-- Main Content Area -->
+    <div class="main">
+      <!-- Home / Hero Section -->
+      <section
+        class="home bg-light"
+        id="home"
+        style="
+          min-height: 100vh;
+          display: flex;
+          align-items: center;
+          position: relative;
+        "
+      >
+        <div class="container-fluid" style="width: 100%">
+          <!-- Social Media Links (Hero Top-Left) -->
+          <div class="social-home">
+            <ul class="list-inline">
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/prince-patel-cse/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="LinkedIn"
+                >
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/prince-patel-cse"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="GitHub"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://leetcode.com/u/D6DnrdP8jS/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="LeetCode"
+                >
+                  <i class="fas fa-code"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="mailto:prince.patel.cse@gmail.com"
+                  title="Email Prince"
+                >
+                  <i class="fas fa-envelope"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div
+            class="row align-items-center"
+            style="min-height: 80vh; padding-top: 60px; padding-bottom: 60px"
+          >
+            <!-- Left: Hero Text Content -->
+            <div class="col-lg-7 mb-40 mb-lg-0">
+              <div class="banner">
+                <h4>Hello, I'm Prince Patel</h4>
+                <h1 class="cd-headline clip">
+                  I Am a
+                  <span class="cd-words-wrapper">
+                    <b class="is-visible">Full-Stack Developer</b>
+                    <b>Software Engineer</b>
+                    <b>DSA Enthusiast</b>
+                  </span>
+                </h1>
+                <p class="max-width-450 mt-20 mb-30">
+                  I’m a third-year B.Tech Computer Science student at Nirma
+                  University (CGPA: 8.96/10), building projects such as Cortex,
+                  an observability and root cause analysis platform, and MiniDB,
+                  a lightweight database engine in C++. I’ve also solved 340+
+                  LeetCode problems and continue strengthening my software
+                  engineering fundamentals.
+                </p>
+
+                <div
+                  class="d-flex flex-wrap align-items-center"
+                  style="gap: 15px"
+                >
+                  <a
+                    href="Prince_Patel_Resume.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn-custom"
+                  >
+                    <i class="fas fa-file-alt"></i> View Resume
+                  </a>
+                  <a href="#works" class="btn-custom-outline">
+                    <i class="fas fa-briefcase"></i> View Work
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right: Organic Morphing Portrait Showcase -->
+            <div class="col-lg-5 text-center">
+              <div class="hero-photo-container">
+                <img
+                  src="assets/img/Profile_Photo.jpeg"
+                  alt="Prince Patel"
+                  class="hero-photo-blob"
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- Quick Info Strip -->
+          <div class="my-info">
+            <div class="item">
+              <p class="font-w-700 mb-0">Email</p>
+              <p class="mb-0">prince.patel.cse@gmail.com</p>
+            </div>
+
+            <div class="item">
+              <p class="font-w-700 mb-0">Education</p>
+              <p class="mb-0">Nirma University (8.96 CGPA)</p>
+            </div>
+
+            <div class="item">
+              <p class="font-w-700 mb-0">Location</p>
+              <p class="mb-0">Ahmedabad, Gujarat, India</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="section about">
+        <div class="container-fluid">
+          <!-- Section Title -->
+          <div class="row mb-50 pt-30">
+            <div class="col-md-12">
+              <div class="section-title">
+                <h2 class="mb-0">About Me</h2>
+              </div>
+            </div>
+          </div>
+
+          <!-- About Details (Full Width Layout) -->
+          <div class="row mb-50">
+            <div class="col-lg-12">
+              <div class="details" style="max-width: 1050px">
+                <h4 class="mb-20 font-w-700" style="color: inherit">
+                  Hello, I'm Prince Patel — CS Undergrad @ Nirma University
+                </h4>
+                <p class="mb-15" style="font-size: 16px; line-height: 1.8">
+                  I’m a third-year B.Tech Computer Science student at Nirma
+                  University (CGPA: 8.96/10), passionate about building scalable
+                  software systems and solving challenging engineering problems.
+                </p>
+                <p class="mb-15" style="font-size: 16px; line-height: 1.8">
+                  I’m currently working on projects like
+                  <strong>Cortex</strong>, a distributed observability and root
+                  cause analysis platform with RAG-based remediation, and
+                  <strong>MiniDB</strong>, a lightweight SQL database engine
+                  built from scratch in C++ with time-travel query capabilities.
+                </p>
+                <p class="mb-30" style="font-size: 16px; line-height: 1.8">
+                  I’ve solved <strong>340+ LeetCode problems</strong> and have
+                  experience across C++, JavaScript, Python, Node.js, React,
+                  PostgreSQL, and MongoDB. I enjoy working on backend systems,
+                  full-stack applications, databases, and problem solving.
+                </p>
+
+                <!-- About Info List -->
+                <ul class="info mb-30 list-inline">
+                  <li><span>Name :</span> Prince Patel</li>
+                  <li><span>Degree :</span> B.Tech in CSE (2024–2028)</li>
+                  <li>
+                    <span>University :</span> Nirma University | CGPA: 8.96/10
+                  </li>
+                  <li>
+                    <span>Email :</span
+                    ><a href="mailto:prince.patel.cse@gmail.com"
+                      >prince.patel.cse@gmail.com</a
+                    >
+                  </li>
+                  <li>
+                    <span>LeetCode :</span> 340+ Solved | 1,560 Peak Rating
+                  </li>
+                  <li><span>Location :</span> Ahmedabad, Gujarat, India</li>
+                  <li><span>Status :</span> Open to SDE Internships</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Section 1: Hackathons (Balanced 2x2 Grid) -->
+          <div class="row mt-50 mb-20" id="hackathons">
+            <div class="col-md-12 mb-30">
+              <div class="section-title">
+                <h2 class="mb-0">Hackathons</h2>
+              </div>
+            </div>
+
+            <!-- Honor 1: TCS AI Hackathon -->
+            <div class="col-lg-6 col-md-6 mb-25">
+              <div class="achievement-card">
+                <span class="achievement-badge">Winner</span>
+                <h5>TCS AI Hackathon</h5>
+                <div class="achievement-org mb-0">
+                  <i class="far fa-calendar-alt mr-1"></i> Aug 2026 · Nirma
+                  University
+                </div>
+              </div>
+            </div>
+
+            <!-- Honor 2: ODOO Hackathon 2026 -->
+            <div class="col-lg-6 col-md-6 mb-25">
+              <div class="achievement-card">
+                <span class="achievement-badge">National Finalist</span>
+                <h5>ODOO Hackathon 2026</h5>
+                <div class="achievement-org mb-0">
+                  <i class="far fa-calendar-alt mr-1"></i> Jul 2026 – Aug 2026
+                </div>
+              </div>
+            </div>
+
+            <!-- Honor 3: ODOO × KSV Hackathon 2026 -->
+            <div class="col-lg-6 col-md-6 mb-25">
+              <div class="achievement-card">
+                <span class="achievement-badge">Finalist</span>
+                <h5>ODOO × KSV Hackathon 2026</h5>
+                <div class="achievement-org mb-0">
+                  <i class="far fa-calendar-alt mr-1"></i> Jul 2026
+                </div>
+              </div>
+            </div>
+
+            <!-- Honor 4: GDG Hackathon -->
+            <div class="col-lg-6 col-md-6 mb-25">
+              <div class="achievement-card">
+                <span class="achievement-badge">6th Position</span>
+                <h5>GDG Hackathon</h5>
+                <div class="achievement-org mb-0">
+                  <i class="far fa-calendar-alt mr-1"></i> Jan 2026 · Nirma
+                  University
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Section 2: Education Roadmap Path Layout (Separated, No Descriptions) -->
+          <div class="row mt-60 mb-40" id="education">
+            <div class="col-md-12 mb-30">
+              <div class="section-title">
+                <h2 class="mb-0">Academic Journey & Education</h2>
+              </div>
+            </div>
+
+            <div class="col-12">
+              <div class="edu-roadmap-wrapper">
+                <div class="edu-roadmap-line"></div>
+
+                <!-- Milestone 1: Nirma University (2024 - 2028) -->
+                <div class="edu-roadmap-step left">
+                  <div class="edu-roadmap-node">
+                    <i class="fas fa-user-graduate"></i>
+                  </div>
+                  <div class="edu-card-col">
+                    <div class="edu-roadmap-card">
+                      <span class="edu-date-badge">2024 – 2028 · Present</span>
+                      <h5 class="edu-degree-title">
+                        B.Tech Computer Science & Engineering
+                      </h5>
+                      <div class="edu-institution-name">
+                        <i class="fas fa-university mr-1"></i> Nirma University,
+                        Ahmedabad
+                      </div>
+                      <div class="edu-grade-pill">
+                        <i class="fas fa-star"></i> CGPA: 8.96 / 10
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Milestone 2: Higher Secondary XII (2022 - 2024) -->
+                <div class="edu-roadmap-step right">
+                  <div class="edu-roadmap-node">
+                    <i class="fas fa-school"></i>
+                  </div>
+                  <div class="edu-card-col">
+                    <div class="edu-roadmap-card">
+                      <span class="edu-date-badge">2022 – 2024</span>
+                      <h5 class="edu-degree-title">
+                        Higher Secondary Certificate (XII - Science)
+                      </h5>
+                      <div class="edu-institution-name">
+                        <i class="fas fa-map-marker-alt mr-1"></i> Gayatri
+                        Vidhyalaya · GHSEB
+                      </div>
+                      <div class="edu-grade-pill">
+                        <i class="fas fa-award"></i> Score: 90.9%
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Milestone 3: Secondary School X (2020 - 2022) -->
+                <div class="edu-roadmap-step left">
+                  <div class="edu-roadmap-node">
+                    <i class="fas fa-medal"></i>
+                  </div>
+                  <div class="edu-card-col">
+                    <div class="edu-roadmap-card">
+                      <span class="edu-date-badge">2020 – 2022</span>
+                      <h5 class="edu-degree-title">
+                        Secondary School Certificate (X)
+                      </h5>
+                      <div class="edu-institution-name">
+                        <i class="fas fa-map-marker-alt mr-1"></i> Noble Higher
+                        Secondary School · GHSEB
+                      </div>
+                      <div class="edu-grade-pill">
+                        <i class="fas fa-trophy"></i> Score: 96.33%
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Technical Expertise / Skills Section -->
+      <section id="skills" class="section services bg-light">
+        <div class="container-fluid">
+          <div class="row mb-50">
+            <div class="col-md-12">
+              <div class="section-title">
+                <h2 class="mb-0">Technical Expertise</h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <!-- Skill 1 -->
+            <div class="col-sm-6 col-lg-4 mb-30">
+              <div class="item h-100">
+                <div class="circle">
+                  <h2>01</h2>
+                </div>
+                <div class="content">
+                  <h5 class="mt-15 mb-10">Programming Languages</h5>
+                  <p class="mb-0">
+                    C++, JavaScript (ES6+), Python, C, Java, SQL
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Skill 2 -->
+            <div class="col-sm-6 col-lg-4 mb-30">
+              <div class="item h-100">
+                <div class="circle">
+                  <h2>02</h2>
+                </div>
+                <div class="content">
+                  <h5 class="mt-15 mb-10">Frontend Development</h5>
+                  <p class="mb-0">React.js, Next.js, HTML, CSS</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Skill 3 -->
+            <div class="col-sm-6 col-lg-4 mb-30">
+              <div class="item h-100">
+                <div class="circle">
+                  <h2>03</h2>
+                </div>
+                <div class="content">
+                  <h5 class="mt-15 mb-10">Backend & Distributed</h5>
+                  <p class="mb-0">
+                    Node.js, Express.js, JWT Authentication, RESTful APIs,
+                    WebSockets (Socket.io)
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Skill 4 -->
+            <div class="col-sm-6 col-lg-4 mb-30">
+              <div class="item h-100">
+                <div class="circle">
+                  <h2>04</h2>
+                </div>
+                <div class="content">
+                  <h5 class="mt-15 mb-10">Databases & Storage</h5>
+                  <p class="mb-0">
+                    PostgreSQL, MySQL, MongoDB, pgvector (Vector DB), Supabase
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Skill 5 -->
+            <div class="col-sm-6 col-lg-4 mb-30">
+              <div class="item h-100">
+                <div class="circle">
+                  <h2>05</h2>
+                </div>
+                <div class="content">
+                  <h5 class="mt-15 mb-10">AI / ML & Retrieval</h5>
+                  <p class="mb-0">
+                    XGBoost, Vector Search (pgvector), Retrieval-Augmented
+                    Generation (RAG), Feature Engineering, ML Fundamentals
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Skill 6 -->
+            <div class="col-sm-6 col-lg-4 mb-30">
+              <div class="item h-100">
+                <div class="circle">
+                  <h2>06</h2>
+                </div>
+                <div class="content">
+                  <h5 class="mt-15 mb-10">Core Computer Science</h5>
+                  <p class="mb-0">
+                    Data Structures & Algorithms, DBMS, Object-Oriented
+                    Programming (OOP), Computer Networks, Operating Systems
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Problem Solving & DSA Section -->
+      <section id="problem-solving" class="section pb-50">
+        <div class="container-fluid">
+          <div class="row mb-50">
+            <div class="col-md-12">
+              <div class="section-title">
+                <h2 class="mb-0">Problem Solving & DSA</h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <!-- LeetCode Solved Card -->
+            <div class="col-lg-4 col-md-6 mb-30">
+              <div class="stat-card-dsa">
+                <div class="stat-number-accent">340+</div>
+                <h5 class="mb-10">LeetCode Problems</h5>
+
+                <div class="leetcode-breakdown-row">
+                  <div class="lc-badge">
+                    <strong class="lc-easy">Easy</strong>
+                    <span class="lc-easy font-w-700">90</span>
+                  </div>
+                  <div class="lc-badge">
+                    <strong class="lc-med">Medium</strong>
+                    <span class="lc-med font-w-700">213</span>
+                  </div>
+                  <div class="lc-badge">
+                    <strong class="lc-hard">Hard</strong>
+                    <span class="lc-hard font-w-700">40</span>
+                  </div>
+                </div>
+
+                <div class="mt-20">
+                  <a
+                    href="https://leetcode.com/u/D6DnrdP8jS/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn-github"
+                  >
+                    <i class="fas fa-external-link-alt"></i> LeetCode Profile
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- NeetCode Roadmap Card -->
+            <div class="col-lg-4 col-md-6 mb-30">
+              <div class="stat-card-dsa">
+                <div class="stat-number-accent">150/150</div>
+                <h5 class="mb-10">NeetCode Roadmap</h5>
+              </div>
+            </div>
+
+            <!-- Peak Rating Card -->
+            <div class="col-lg-4 col-md-12 mb-30">
+              <div class="stat-card-dsa">
+                <div class="stat-number-accent">1,560</div>
+                <h5 class="mb-10">Peak Contest Rating</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Featured Projects Section -->
+      <section id="works" class="section works bg-light">
+        <div class="container-fluid">
+          <div class="row mb-50">
+            <div class="col-md-12">
+              <div class="section-title">
+                <h2 class="mb-0">Projects</h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <!-- Project 1: Cortex -->
+            <div class="col-lg-12">
+              <div class="project-card">
+                <div class="project-header-flex">
+                  <div>
+                    <h3 class="project-title-h3">
+                      Cortex — Distributed Observability & Root Cause Platform
+                    </h3>
+                    <span class="text-muted"
+                      >Real-time Telemetry, Failure Correlation & AI
+                      Recovery</span
+                    >
+                  </div>
+                  <span class="project-date-pill">Jul 2026 – Present</span>
+                </div>
+
+                <ul class="project-details-list">
+                  <li>
+                    Built a real-time observability platform using
+                    <strong>React, Node.js, PostgreSQL, and Socket.io</strong>
+                    to monitor latency and failures across 10 microservices,
+                    streaming telemetry at 3-second intervals.
+                  </li>
+                  <li>
+                    Implemented request correlation, distributed tracing, and
+                    dependency analysis to automatically identify root causes
+                    across 11 simulated failure scenarios.
+                  </li>
+                  <li>
+                    Developed an
+                    <strong>ML + RAG remediation pipeline</strong> by training 3
+                    XGBoost models on 200K+ simulated telemetry records and
+                    integrating <strong>pgvector</strong> similarity search to
+                    generate context-aware recovery guidance.
+                  </li>
+                </ul>
+
+                <div class="tech-tags">
+                  <span class="tech-tag">React.js</span>
+                  <span class="tech-tag">Node.js</span>
+                  <span class="tech-tag">PostgreSQL</span>
+                  <span class="tech-tag">Socket.io</span>
+                  <span class="tech-tag">pgvector</span>
+                  <span class="tech-tag">XGBoost</span>
+                  <span class="tech-tag">RAG Pipeline</span>
+                  <span class="tech-tag">Microservices</span>
+                </div>
+
+                <div class="mt-20">
+                  <a
+                    href="https://github.com/VrajPrajapati6/Cortex-AI"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn-github"
+                  >
+                    <i class="fab fa-github"></i> View GitHub Repository
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 2: MiniDB -->
+            <div class="col-lg-12">
+              <div class="project-card">
+                <div class="project-header-flex">
+                  <div>
+                    <h3 class="project-title-h3">
+                      MiniDB — Lightweight SQL Engine with Time-Travel Queries
+                    </h3>
+                    <span class="text-muted"
+                      >Custom Database Engine & Query Parser in C++</span
+                    >
+                  </div>
+                  <span class="project-date-pill">Jun 2026</span>
+                </div>
+
+                <ul class="project-details-list">
+                  <li>
+                    Built a lightweight SQL engine from scratch supporting 10
+                    SQL-like commands, including CRUD operations, WHERE
+                    filtering, indexing, pagination, <code>HISTORY</code>, and
+                    <code>ROLLBACK</code>.
+                  </li>
+                  <li>
+                    Designed an incremental versioning mechanism enabling
+                    efficient retrieval and time-travel restoration of previous
+                    database states.
+                  </li>
+                  <li>
+                    Implemented query parsing and execution using custom data
+                    structures, indexing, and persistent file-based storage.
+                  </li>
+                </ul>
+
+                <div class="tech-tags">
+                  <span class="tech-tag">C++</span>
+                  <span class="tech-tag">STL</span>
+                  <span class="tech-tag">File I/O</span>
+                  <span class="tech-tag">Query Parser</span>
+                  <span class="tech-tag">Incremental Versioning</span>
+                  <span class="tech-tag">Indexing</span>
+                  <span class="tech-tag">Systems Programming</span>
+                </div>
+
+                <div class="mt-20">
+                  <a
+                    href="https://github.com/prince-patel-cse/MiniDB"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn-github"
+                  >
+                    <i class="fab fa-github"></i> View GitHub Repository
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 3: EcoDrive -->
+            <div class="col-lg-12">
+              <div class="project-card">
+                <div class="project-header-flex">
+                  <div>
+                    <h3 class="project-title-h3">
+                      EcoDrive — Enterprise Smart Mobility Platform
+                    </h3>
+                    <span class="text-muted"
+                      >Scalable Corporate Carpooling with Live Tracking & Wallet
+                      System</span
+                    >
+                  </div>
+                  <span class="project-date-pill">Full-Stack Enterprise</span>
+                </div>
+
+                <ul class="project-details-list">
+                  <li>
+                    Built a full-stack enterprise carpooling platform supporting
+                    organization-based authentication, ride management, employee
+                    dashboards, and secure access control.
+                  </li>
+                  <li>
+                    Implemented real-time ride coordination using
+                    <strong>Socket.IO</strong> with integrated chat, live
+                    location tracking via Leaflet, and ride status
+                    synchronization.
+                  </li>
+                  <li>
+                    Developed secure backend services featuring wallet
+                    management,
+                    <strong>Razorpay payment gateway</strong> integration,
+                    Supabase, and PostgreSQL.
+                  </li>
+                </ul>
+
+                <div class="tech-tags">
+                  <span class="tech-tag">React.js</span>
+                  <span class="tech-tag">Node.js</span>
+                  <span class="tech-tag">Express.js</span>
+                  <span class="tech-tag">Socket.io</span>
+                  <span class="tech-tag">Supabase</span>
+                  <span class="tech-tag">PostgreSQL</span>
+                  <span class="tech-tag">Razorpay</span>
+                  <span class="tech-tag">Leaflet Maps</span>
+                  <span class="tech-tag">JWT</span>
+                </div>
+
+                <div class="mt-20">
+                  <a
+                    href="https://github.com/VrajPrajapati6/EcoDrive"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn-github"
+                  >
+                    <i class="fab fa-github"></i> View GitHub Repository
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 4: MarketMapper -->
+            <div class="col-lg-12">
+              <div class="project-card">
+                <div class="project-header-flex">
+                  <div>
+                    <h3 class="project-title-h3">
+                      MarketMapper — AI-Powered Business Intelligence Platform
+                    </h3>
+                    <span class="text-muted"
+                      >Demographic & Competitor Density Analysis with AI
+                      Decision Support</span
+                    >
+                  </div>
+                  <span class="project-date-pill">AI & Analytics</span>
+                </div>
+
+                <ul class="project-details-list">
+                  <li>
+                    Built an AI-assisted market intelligence platform that
+                    evaluates demographics, competitor density, and regional
+                    business insights to identify high-potential business
+                    locations.
+                  </li>
+                  <li>
+                    Developed an intelligent recommendation engine that combines
+                    business analytics with AI-generated insights, enabling
+                    users to make informed, data-driven location decisions.
+                  </li>
+                  <li>
+                    Designed a responsive full-stack application with
+                    interactive visualizations, scalable backend APIs, and
+                    modern Next.js web architecture.
+                  </li>
+                </ul>
+
+                <div class="tech-tags">
+                  <span class="tech-tag">Next.js</span>
+                  <span class="tech-tag">Node.js</span>
+                  <span class="tech-tag">Express.js</span>
+                  <span class="tech-tag">MongoDB</span>
+                  <span class="tech-tag">AI Recommendation Engine</span>
+                  <span class="tech-tag">Data Visualizations</span>
+                </div>
+
+                <div class="mt-20">
+                  <a
+                    href="https://github.com/VrajPrajapati6/MarketMapper-Techsprint"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn-github"
+                  >
+                    <i class="fab fa-github"></i> View GitHub Repository
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Certifications & Achievements Section -->
+      <section id="certifications" class="section pb-70">
+        <div class="container-fluid">
+          <div class="row mb-50">
+            <div class="col-md-12">
+              <div class="section-title">
+                <h2 class="mb-0">Certifications</h2>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category Filters -->
+          <div class="cert-filters">
+            <button class="cert-filter-btn active" data-filter="all">
+              All
+            </button>
+            <button class="cert-filter-btn" data-filter="Technical">
+              Technical
+            </button>
+            <button class="cert-filter-btn" data-filter="Hackathons">
+              Hackathons
+            </button>
+            <button class="cert-filter-btn" data-filter="Academic">
+              Academic
+            </button>
+          </div>
+
+          <!-- Certifications Grid -->
+          <div class="row cert-grid-container">
+            <div
+              class="col-lg-4 col-md-6 cert-item-col"
+              data-category="Hackathons"
+            >
+              <div class="cert-item-card">
+                <a
+                  href="assets/img/TCS.jpeg"
+                  class="cert-img-wrapper view-cert"
+                  title="TCS AI Hackathon 2026"
+                >
+                  <img src="assets/img/TCS.jpeg" alt="TCS AI Hackathon 2026" />
+                  <div class="cert-overlay">
+                    <span class="btn-custom">
+                      <i class="fas fa-search-plus"></i> View Certificate
+                    </span>
+                  </div>
+                </a>
+                <div class="cert-info">
+                  <h5 class="mb-5">TCS AI Hackathon 2026</h5>
+                  <span class="cert-badge">Hackathons</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Cert 1: DSA -->
+            <div
+              class="col-lg-4 col-md-6 cert-item-col"
+              data-category="Technical"
+            >
+              <div class="cert-item-card">
+                <a
+                  href="assets/img/AC_Sigma.jpg"
+                  class="cert-img-wrapper view-cert"
+                  title="DSA Mastery - Apna College Sigma"
+                >
+                  <img
+                    src="assets/img/AC_Sigma.jpg"
+                    alt="DSA Certification - AC Sigma"
+                  />
+                  <div class="cert-overlay">
+                    <span class="btn-custom">
+                      <i class="fas fa-search-plus"></i> View Certificate
+                    </span>
+                  </div>
+                </a>
+                <div class="cert-info">
+                  <h5 class="mb-5">DSA</h5>
+                  <span class="cert-badge">Technical</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Cert 2: ODOO Hackathon -->
+            <div
+              class="col-lg-4 col-md-6 cert-item-col"
+              data-category="Hackathons"
+            >
+              <div class="cert-item-card">
+                <a
+                  href="assets/img/ODOO.jpeg"
+                  class="cert-img-wrapper view-cert"
+                  title="ODOO ✕ KSV Hackathon 2026 - National Finalist"
+                >
+                  <img
+                    src="assets/img/ODOO.jpeg"
+                    alt="ODOO ✕ KSV Hackathon 2026"
+                  />
+                  <div class="cert-overlay">
+                    <span class="btn-custom">
+                      <i class="fas fa-search-plus"></i> View Certificate
+                    </span>
+                  </div>
+                </a>
+                <div class="cert-info">
+                  <h5 class="mb-5">ODOO ✕ KSV Hackathon</h5>
+                  <span class="cert-badge">Hackathons</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Cert 3: Academic 1 -->
+            <div
+              class="col-lg-4 col-md-6 cert-item-col"
+              data-category="Academic"
+            >
+              <div class="cert-item-card">
+                <a
+                  href="assets/img/Acad1.jpeg"
+                  class="cert-img-wrapper view-cert"
+                  title="Academic Excellence - Merit Scholarship & Honor"
+                >
+                  <img
+                    src="assets/img/Acad1.jpeg"
+                    alt="Academic Excellence Award"
+                  />
+                  <div class="cert-overlay">
+                    <span class="btn-custom">
+                      <i class="fas fa-search-plus"></i> View Certificate
+                    </span>
+                  </div>
+                </a>
+                <div class="cert-info">
+                  <h5 class="mb-5">Academic Excellence</h5>
+                  <span class="cert-badge">Academic</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Cert 4: Academic 2 -->
+            <div
+              class="col-lg-4 col-md-6 cert-item-col"
+              data-category="Academic"
+            >
+              <div class="cert-item-card">
+                <a
+                  href="assets/img/Acad2.jpeg"
+                  class="cert-img-wrapper view-cert"
+                  title="Academic Excellence - Scholastic Achievement"
+                >
+                  <img
+                    src="assets/img/Acad2.jpeg"
+                    alt="Academic Excellence Award"
+                  />
+                  <div class="cert-overlay">
+                    <span class="btn-custom">
+                      <i class="fas fa-search-plus"></i> View Certificate
+                    </span>
+                  </div>
+                </a>
+                <div class="cert-info">
+                  <h5 class="mb-5">Academic Excellence</h5>
+
+                  <span class="cert-badge">Academic</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Cert 5: Academic 3 -->
+            <div
+              class="col-lg-4 col-md-6 cert-item-col"
+              data-category="Academic"
+            >
+              <div class="cert-item-card">
+                <a
+                  href="assets/img/Acad3.jpeg"
+                  class="cert-img-wrapper view-cert"
+                  title="Academic Scholar - Dean's Honor Roll"
+                >
+                  <img
+                    src="assets/img/Acad3.jpeg"
+                    alt="Academic Scholar Award"
+                  />
+                  <div class="cert-overlay">
+                    <span class="btn-custom">
+                      <i class="fas fa-search-plus"></i> View Certificate
+                    </span>
+                  </div>
+                </a>
+                <div class="cert-info">
+                  <h5 class="mb-5">Academic Scholar</h5>
+                  <span class="cert-badge">Academic</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section class="section contact pb-70" id="contact">
+        <div class="container-fluid">
+          <div class="row mb-50">
+            <div class="col-md-12">
+              <div class="section-title">
+                <h2 class="mb-0">Get In Touch</h2>
+                <p class="text-muted mb-0">
+                  I'm currently open to new software engineering opportunities
+                  and internships.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row align-items-center">
+            <!-- Left: Description & Primary Actions -->
+            <div class="col-lg-6 mb-40 mb-lg-0">
+              <div
+                class="d-flex flex-wrap align-items-center"
+                style="gap: 15px; margin-bottom: 30px"
+              >
+                <a
+                  href="mailto:prince.patel.cse@gmail.com?subject=Opportunity%20/%20Connection%20-%20Prince%20Patel"
+                  class="btn-custom"
+                >
+                  <i class="fas fa-paper-plane"></i> Send Email
+                </a>
+                <button id="copyEmailBtn" class="btn-custom-outline">
+                  <i class="fas fa-copy"></i> Copy Email
+                </button>
+              </div>
+
+              <div
+                class="p-20"
+                style="
+                  background: rgba(242, 30, 78, 0.08);
+                  border-left: 4px solid #f21e4e;
+                  border-radius: 8px;
+                "
+              ></div>
+            </div>
+
+            <!-- Right: Quick Connect Cards Hub -->
+            <div class="col-lg-6">
+              <div class="contact-hub-card">
+                <!-- Email -->
+                <a
+                  href="mailto:prince.patel.cse@gmail.com"
+                  class="contact-quick-item"
+                >
+                  <div class="contact-icon-box">
+                    <i class="fas fa-envelope"></i>
+                  </div>
+                  <div>
+                    <div class="contact-item-label">Direct Email</div>
+                    <div class="contact-item-value">
+                      prince.patel.cse@gmail.com
+                    </div>
+                  </div>
+                </a>
+
+                <!-- LinkedIn -->
+                <a
+                  href="https://www.linkedin.com/in/prince-patel-cse/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="contact-quick-item"
+                >
+                  <div class="contact-icon-box">
+                    <i class="fab fa-linkedin-in"></i>
+                  </div>
+                  <div>
+                    <div class="contact-item-label">LinkedIn Profile</div>
+                    <div class="contact-item-value">
+                      linkedin.com/in/prince-patel-cse
+                    </div>
+                  </div>
+                </a>
+
+                <!-- GitHub -->
+                <a
+                  href="https://github.com/prince-patel-cse"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="contact-quick-item"
+                >
+                  <div class="contact-icon-box">
+                    <i class="fab fa-github"></i>
+                  </div>
+                  <div>
+                    <div class="contact-item-label">GitHub Portfolio</div>
+                    <div class="contact-item-value">
+                      github.com/prince-patel-cse
+                    </div>
+                  </div>
+                </a>
+
+                <!-- LeetCode -->
+                <a
+                  href="https://leetcode.com/u/D6DnrdP8jS/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="contact-quick-item"
+                >
+                  <div class="contact-icon-box">
+                    <i class="fas fa-code"></i>
+                  </div>
+                  <div>
+                    <div class="contact-item-label">
+                      LeetCode Profile (340+ Solved)
+                    </div>
+                    <div class="contact-item-value">
+                      leetcode.com/u/D6DnrdP8jS
+                    </div>
+                  </div>
+                </a>
+
+                <!-- Location -->
+                <div class="contact-quick-item mb-0">
+                  <div class="contact-icon-box">
+                    <i class="fas fa-map-marker-alt"></i>
+                  </div>
+                  <div>
+                    <div class="contact-item-label">Current Location</div>
+                    <div class="contact-item-value">
+                      Nirma University · Ahmedabad, Gujarat, India
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="pt-30 pb-30 bg-light">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center mb-0">
+                © 2026 Prince Patel. All Rights Reserved.
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <!-- Social Media Footer Popup -->
+      <div class="social-footer">
+        <ul class="list-inline">
+          <li>
+            <a
+              href="https://www.linkedin.com/in/prince-patel-cse/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/prince-patel-cse"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><i class="fab fa-github"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://leetcode.com/u/D6DnrdP8jS/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><i class="fas fa-code"></i
+            ></a>
+          </li>
+          <li>
+            <a href="mailto:prince.patel.cse@gmail.com"
+              ><i class="fas fa-envelope"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- Main Content End -->
+
+    <!-- JS Plugins & Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.animatedheadline.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
