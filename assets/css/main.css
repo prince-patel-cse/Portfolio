@@ -2003,68 +2003,33 @@ body:not(.dark) .btn-share:hover span, body:not(.dark) .btn-share.active span {
   }
 }
 
-@media screen and (max-width: 768px) {
-  .section {
-    padding: 55px 12px !important;
-  }
-  .home {
-    padding: 22px 14px 45px 14px !important;
-  }
-  .container-fluid {
-    padding-left: 6px !important;
-    padding-right: 6px !important;
-  }
-  .project-card {
-    padding: 20px 16px !important;
-  }
-  .achievement-card {
-    padding: 18px 16px !important;
-  }
-  .edu-roadmap-card {
-    padding: 18px 16px !important;
-  }
-  .stat-card-dsa {
-    padding: 20px 14px !important;
-  }
-  .contact-hub-card {
-    padding: 20px 16px !important;
-  }
-  .about .details {
-    padding: 0 !important;
-  }
-}
-
 @media screen and (max-width: 567px) {
   h1 {
-    font-size: 28px;
+    font-size: 30px;
   }
   h2 {
-    font-size: 24px;
+    font-size: 26px;
   }
   .menu-toggle {
-    right: 14px;
-    top: 14px;
+    right: 18px;
+    top: 18px;
   }
   .max-width-450 {
     width: auto;
   }
   .section {
-    padding: 45px 10px !important;
+    padding: 60px 18px !important;
   }
   .home {
-    padding: 18px 10px 40px 10px !important;
+    padding: 24px 18px 50px 18px !important;
     background-position: unset !important;
   }
-  .container-fluid {
-    padding-left: 4px !important;
-    padding-right: 4px !important;
-  }
   .home .banner h4 {
-    font-size: 17px;
+    font-size: 18px;
     margin-bottom: 6px;
   }
   .home .banner h1.cd-headline {
-    font-size: 26px;
+    font-size: 28px;
   }
   .my-info {
     display: none;
